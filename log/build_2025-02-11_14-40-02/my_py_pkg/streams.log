@@ -1,0 +1,52 @@
+[0.631s] Invoking command in '/home/yusuf/Desktop/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build install --record /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.780s] running egg_info
+[0.780s] creating ../build/my_py_pkg/my_py_pkg.egg-info
+[0.790s] writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.790s] writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.790s] writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.790s] writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.790s] writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.790s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.812s] reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.812s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.812s] running build
+[0.812s] running build_py
+[0.812s] creating /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build
+[0.812s] creating /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build/lib
+[0.812s] creating /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.812s] copying my_py_pkg/satellite.py -> /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.812s] copying my_py_pkg/my_first_node.py -> /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.812s] copying my_py_pkg/__init__.py -> /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.812s] copying my_py_pkg/add_two_ints_server.py -> /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.812s] copying my_py_pkg/robot_state_publisher.py -> /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.812s] copying my_py_pkg/node.template.py -> /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.812s] running install
+[0.816s] running install_lib
+[0.827s] creating /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.827s] copying /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/satellite.py -> /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.827s] copying /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.827s] copying /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.827s] copying /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.827s] copying /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/robot_state_publisher.py -> /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.827s] copying /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/node.template.py -> /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.827s] byte-compiling /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/satellite.py to satellite.cpython-312.pyc
+[0.827s] byte-compiling /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[0.828s] byte-compiling /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[0.828s] byte-compiling /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-312.pyc
+[0.828s] byte-compiling /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/robot_state_publisher.py to robot_state_publisher.cpython-312.pyc
+[0.828s] byte-compiling /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/node.template.py to node.template.cpython-312.pyc
+[0.828s] running install_data
+[0.828s] creating /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/share/ament_index
+[0.828s] creating /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index
+[0.828s] creating /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.828s] copying resource/my_py_pkg -> /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.828s] copying package.xml -> /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/share/my_py_pkg
+[0.828s] running install_egg_info
+[0.839s] Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[0.840s] running install_scripts
+[0.908s] Installing add_two_ints_server script to /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.909s] Installing my_py_node script to /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.909s] Installing satellite script to /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.909s] Installing state_publisher script to /home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.909s] writing list of installed files to '/home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/install.log'
+[0.926s] Invoked command in '/home/yusuf/Desktop/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/Desktop/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/build install --record /home/yusuf/Desktop/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed install_data

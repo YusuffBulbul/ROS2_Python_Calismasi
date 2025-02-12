@@ -24,21 +24,17 @@ class NumberCounter(Node):
     def service_method(self,request,response):
         if request.data:
             self.toplam.data = 0
-
-        response.success = True
-        response.message = "Counter reset successfully"
+            response.success = True
+            response.message = "Counter reset successfully"
+        else:
+            response.success = False
+            response.message = "Counter resete unseccesfully"
         return response
-
-   
+    
     def callbackmethod(self,msg):
         self.toplam.data += msg.data
         self.publisher.publish(self.toplam)
         
-    
-
-        
-
-                                               
 
 def main():
     rclpy.init()

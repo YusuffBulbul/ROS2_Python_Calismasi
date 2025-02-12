@@ -19,7 +19,6 @@ class NumberCounter(Node):
 
         self.toplam = Int64()
         self.toplam.data = 0
-        self.timer = self.create_timer(1,self.sendmethod)
         
     
     def service_method(self,request,response):
@@ -33,11 +32,11 @@ class NumberCounter(Node):
    
     def callbackmethod(self,msg):
         self.toplam.data += msg.data
+        self.publisher.publish(self.toplam)
         
     
-    def sendmethod(self):
 
-        self.publisher.publish(self.toplam)
+        
 
                                                
 

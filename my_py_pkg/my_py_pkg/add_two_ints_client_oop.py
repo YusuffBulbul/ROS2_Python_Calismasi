@@ -11,6 +11,8 @@ class AddTwoIntsClientNode(Node):
     def __init__(self):
         super().__init__("add_two_ints_client")
         self.call_add_two_ints_client(5,6)
+        self.call_add_two_ints_client(15,26)
+        self.call_add_two_ints_client(35,26)
 
     def call_add_two_ints_client(self,a,b):
         client = self.create_client(AddTwoInts,"add_two_ints")

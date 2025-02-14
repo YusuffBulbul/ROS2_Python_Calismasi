@@ -1,0 +1,9 @@
+int64 takim_numarasi
+float64 enlem
+float64 boylam
+int64 irtifa
+float64 dikilme
+int64 yonelme
+float64 yatis
+float64 hiz
+int64 zaman_farki

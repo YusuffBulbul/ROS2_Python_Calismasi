@@ -31,7 +31,9 @@ setup(
             "number_counter = my_py_pkg.number_counter:main",
             "hw_status_publisher = my_py_pkg.hw_status_publisher:main",
             "service_deneme = my_py_pkg.service_deneme:main",
-            "client_deneme = my_py_pkg.client_deneme:main"
+            "client_deneme = my_py_pkg.client_deneme:main",
+            "deneme = my_py_pkg.deneme:main",
+            "subscriber = my_py_pkg.subscriber:main"
         ],
     },
 )

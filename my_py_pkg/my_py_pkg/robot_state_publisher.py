@@ -3,6 +3,7 @@
 import rclpy
 from rclpy.node import Node
 from example_interfaces.msg import String
+import time
 
 class RobotStatePublisherNode(Node):  
     def __init__(self):
@@ -14,7 +15,7 @@ class RobotStatePublisherNode(Node):
 
     def publish_state(self):
         msg = String()
-        msg.data = f"A launch file çalışıyor"
+        msg.data = f"{time.time()} --- A launch file çalışıyor"
         self.publisher_.publish(msg)
 
 def main(args=None):

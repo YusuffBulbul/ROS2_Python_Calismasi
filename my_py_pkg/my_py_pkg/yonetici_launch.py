@@ -1,7 +1,7 @@
 import subprocess
 import rclpy
 from rclpy.node import Node
-from my_robot_interface.srv import LaunchFile  # Kendi paket adınızla uyumlu hale getirin
+from my_robot_interface.srv import LaunchFile  
 
 class LaunchManager(Node):
     def __init__(self):

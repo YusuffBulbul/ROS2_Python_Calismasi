@@ -33,7 +33,11 @@ setup(
             "service_deneme = my_py_pkg.service_deneme:main",
             "client_deneme = my_py_pkg.client_deneme:main",
             "deneme = my_py_pkg.deneme:main",
-            "subscriber = my_py_pkg.subscriber:main"
+            "subscriber = my_py_pkg.subscriber:main",
+            "b_publisher = my_py_pkg.b_publisher:main",
+            "b_subscriber = my_py_pkg.b_subscriber:main",
+            "c_publisher = my_py_pkg.c_publisher:main",
+            "c_subscriber = my_py_pkg.c_subscriber:main"
         ],
     },
 )

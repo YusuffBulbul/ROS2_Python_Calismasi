@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="my_py_pkg" exec="her_zaman_publisher" />
+    <node pkg="my_py_pkg" exec="her_zaman_subscriber" />
+</launch>

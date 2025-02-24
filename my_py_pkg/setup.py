@@ -37,7 +37,9 @@ setup(
             "b_publisher = my_py_pkg.b_publisher:main",
             "b_subscriber = my_py_pkg.b_subscriber:main",
             "c_publisher = my_py_pkg.c_publisher:main",
-            "c_subscriber = my_py_pkg.c_subscriber:main"
+            "c_subscriber = my_py_pkg.c_subscriber:main",
+            "her_zaman_publisher = my_py_pkg.her_zaman_publisher:main",
+            "her_zaman_subscriber = my_py_pkg.her_zaman_subscriber:main"
         ],
     },
 )

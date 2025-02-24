@@ -39,7 +39,8 @@ setup(
             "c_publisher = my_py_pkg.c_publisher:main",
             "c_subscriber = my_py_pkg.c_subscriber:main",
             "her_zaman_publisher = my_py_pkg.her_zaman_publisher:main",
-            "her_zaman_subscriber = my_py_pkg.her_zaman_subscriber:main"
+            "her_zaman_subscriber = my_py_pkg.her_zaman_subscriber:main",
+            "telemetry_subscriber = my_py_pkg.telemetry_subscriber:main"
         ],
     },
 )

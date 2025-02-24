@@ -35,15 +35,15 @@ def main():
     rclpy.init()
     ros_client = ROSClient()
 
-    # ROS istemcisini GUI'nin bloklanmaması için ayrı bir thread'de çalıştırın.
-    ros_thread = threading.Thread(target=ros_spin, args=(ros_client,), daemon=True)
+
+    ros_thread = threading.Thread(target=ros_spin, args=(ros_client,), daemon=True) # Ayrı bır threadde çalıştırmalıyız GUI den block yememek için
     ros_thread.start()
 
-    # Tkinter arayüzü oluşturuluyor.
+
     root = tk.Tk()
     root.title("ROS2 Launch Kontrol")
 
-    # Üst kısımda, A, B, C durum butonlarının bulunduğu frame
+
     frame = tk.Frame(root)
     frame.pack(pady=20)
 
@@ -58,15 +58,15 @@ def main():
     btnB.grid(row=0, column=1, padx=10)
     btnC.grid(row=0, column=2, padx=10)
 
-    # Alt kısımda ortalanmış "Durdur" butonu
+
     stop_btn = tk.Button(root, text="Durdur", width=20,
                          command=lambda: ros_client.send_request("stop"))
     stop_btn.pack(pady=10)
 
-    # Tkinter mainloop
+
     root.mainloop()
 
-    # Arayüz kapatıldığında ROS düğümünü kapatın.
+
     ros_client.destroy_node()
     rclpy.shutdown()
 
